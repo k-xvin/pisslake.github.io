@@ -15,8 +15,10 @@ function setupListeners(){
 
 function onPissClick(){
 	console.log("piss");
+	document.body.style.backgroundColor = "yellow";
 }
 
 function onLakeClick(){
 	console.log("lake");
+	document.body.style.backgroundColor = "blue";
 }
