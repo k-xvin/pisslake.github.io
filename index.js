@@ -1,9 +1,9 @@
 // called when page loaded
-document.addEventListener('DOMContentLoaded', function(e){
+/*document.addEventListener('DOMContentLoaded', function(e){
 
 	setupListeners();
 	console.log("dom content loaded");
-});
+});*/
 
 function setupListeners(){
 	pissbtn = document.getElementById("pissbtn");
