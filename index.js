@@ -2,10 +2,11 @@
 document.addEventListener('DOMContentLoaded', function(e){
 
 	setupListeners();
+	console.log("dom content loaded");
 });
 
 function setupListeners(){
-	 pissbtn = document.getElementById("pissbtn");
+	pissbtn = document.getElementById("pissbtn");
 	pissbtn.addEventListener("click", onPissClick);
 
 	let lakebtn = document.getElementById("lakebtn");
@@ -13,9 +14,9 @@ function setupListeners(){
 }
 
 function onPissClick(){
-	window.alert("piss");
+	console.log("piss");
 }
 
 function onLakeClick(){
-	window.alert("lake");
+	console.log("lake");
 }
