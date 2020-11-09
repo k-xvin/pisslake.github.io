@@ -16,11 +16,11 @@ function setupListeners(){
 function onPissClick(){
 	console.log("piss");
 	//document.body.style.backgroundColor = "yellow";
-	document.getElementByClassName("circle")[0].classList.add("piss");
+	document.getElementsByClassName("circle")[0].classList.add("piss");
 }
 
 function onLakeClick(){
 	console.log("lake");
 	document.body.style.backgroundColor = "blue";
-	document.getElementByClassName("circle")[0].classList.remove("piss");
+	document.getElementsByClassName("circle")[0].classList.remove("piss");
 }
